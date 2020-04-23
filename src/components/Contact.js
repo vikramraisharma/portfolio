@@ -8,7 +8,7 @@ class Contact extends Component{
                     <div className="contact-list">
                         <div className="list-group list-group-horizontal">
                             <a className="list-group-item" href="https://www.linkedin.com/in/vikramraisharma/" target="_blank">LinkedIn</a>
-                            <a className="list-group-item" href="https://github.com/ne0nv0id" target="_blank">GitHub</a>
+                            <a className="list-group-item" href="https://github.com/vikramraisharma" target="_blank">GitHub</a>
                             <a className="list-group-item" href="https://medium.com/@vikram.sharma1024" target="_blank">Blog</a>
                         </div>
                     </div>
