@@ -8,6 +8,9 @@ import Nav from './components/Nav'
 import Banner from './components/Banner'
 
 class App extends Component {
+    componentDidMount(){
+        console.log('under development');
+    }
     render(){
         return(
             <div className="container">
@@ -20,3 +23,4 @@ class App extends Component {
 }
 
 export default App
+

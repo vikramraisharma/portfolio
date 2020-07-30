@@ -10,20 +10,20 @@ class Nav extends Component {
         return(
 
             <Router>
-                <div className="navbar navbar-expand-lg">
-                    <ul className="nav nav-tabs">
-                        <li className="">
-                            <Link className="btn btn-warning" to="/">About</Link>
+                <div className="container">
+                    <ul className="level">
+                        <li className="level-item">
+                            <Link className="button is-warning" to="/">About</Link>
                         </li>
-                        <li className="">
-                            <Link className="btn btn-warning" to="/projects">Projects</Link>
+                        <li className="level-item">
+                            <Link className="button is-warning" to="/projects">Projects</Link>
                         </li>
-                        <li className="">
-                            <Link className="btn btn-warning" to="/contact">Contact</Link>
+                        <li className="level-item">
+                            <Link className="button is-warning" to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
-                <div className="container-fluid content-section">
+                <div className="content-section">
                     <Route path="/" exact component={About} />
                     <Route path="/projects" exact component={Projects} />
                     <Route path="/contact" exact component={Contact} />

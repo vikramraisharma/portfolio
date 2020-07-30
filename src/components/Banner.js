@@ -4,12 +4,12 @@ class Banner extends Component{
     render(){
         return(
             <div>
-                <div className="jumbotron">
-                    <h1 className="display-4">
+                <div className="hero is-dark">
+                    <h1 className="title is-1">
                         Vikram Rai Sharma
                         <br/>
                     </h1>
-                    <h1 className="text-muted display-5">
+                    <h1 className="subtitle is-4">
                         A personal portfolio site
                     </h1>
                 </div>

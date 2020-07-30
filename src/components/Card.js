@@ -16,12 +16,24 @@ class Card extends Component{
 
     render(){
         return(
-            <div className="card index-card" style={{width: '15rem'}}>
-                <img src={this.props.img} className="card-img-top" alt="" width="2" height="200"/>
-                <div className="card-body">
-                    <h5 className="card-title">{this.props.title}</h5>
-                    <p className="card-text">{this.props.text}</p>
-                    <a href={this.props.link} className="btn btn-warning">Link</a>
+            <div className="column is-half">
+                {/*<img src={this.props.img} className="media-left" alt=""/>*/}
+                <div className="card">
+                    <p>
+                        <header className="card-header">{this.props.title}</header>
+                        <div className="card-image">
+                            <figure className="image">
+                                <img src={this.props.img}/>
+                            </figure>
+                        </div>
+                        <div className="card-content">{this.props.text}</div>
+                        <footer className="card-footer">
+                            <a className="card-footer-item" href={this.props.link}>Go To Site</a>
+                            <a className="card-footer-item" href={this.props.source}>View Source Code</a>
+                        </footer>
+                    </p>
+
+
                 </div>
             </div>
         )
