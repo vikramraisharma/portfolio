@@ -19,18 +19,19 @@
 /* header */
 .header{
     min-height: 8vh;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     padding: 1vh;
 }
 .level{
     height: 7.2vh;
     min-width: 50vw;
-    max-width: 75vw;
+    max-width: 85vw;
     padding: 2vh;
     border: none;
     border-radius: 1vh;
     margin: auto;
-    background-color: lightgoldenrodyellow;
+    background-color: purple;
+    color: white;
 }
 
 /* hero */
@@ -47,19 +48,32 @@
 }
 .hero-text{
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.bio{
+    display: flex;
+    height: 70%;
+    width: 80%;
+    border-radius: 2rem;
+    padding:1rem;
+    align-items: center;
 }
 .hero-img{
     height: auto;
-    justify-content: space-around;
 }
 
 /* projects */
 .projects{
     min-height: 60vh;
-    background-color: lightyellow;
     justify-content: center;
     padding: 1rem ;
     border: none;
+    width: 80%;
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
 }
 .tile{
     border: none
