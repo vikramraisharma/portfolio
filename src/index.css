@@ -20,7 +20,7 @@
 .header{
     min-height: 8vh;
     /* background-color: lightsalmon; */
-    padding: 1vh;
+    padding: 0.5rem;
 }
 .level{
     height: 7.2vh;
@@ -37,7 +37,7 @@
 /* hero */
 .hero-div{
     min-height: 60vh;
-    background-color: lightpink;
+    /* background-color: lightpink; */
     justify-content: space-around;
 }
 .columns{
@@ -51,7 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    /* background-color: white; */
 }
 .bio{
     display: flex;
@@ -67,12 +67,12 @@
 
 /* projects */
 .projects{
-    min-height: 60vh;
+    min-height: 80vh;
     justify-content: center;
     padding: 1rem ;
     border: none;
     width: 80%;
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
     margin: 0 auto;
 }
 .tile{
@@ -82,11 +82,12 @@
 /* blog */
 .blog{
     min-height: 60vh;
-    background-color: lightpink;
+    /* background-color: lightpink; */
+    display: flex;
 }
 .tile.is-10{
-    margin: 0 auto;
-    justify-content: center;
+    margin: auto;
+    align-self: center;
 }
 
 /* footer */
@@ -94,10 +95,14 @@
     height: 8vh;
     padding: 1rem;
     width: 100%;
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
 }
 .footer{
-    background-color: lightgoldenrodyellow;
+    padding: 0.5rem;
+}
+.footer > .level > .level-right{
+    width: 15%;
+    justify-content: space-around;
 }
 
 /* animations */
@@ -111,9 +116,13 @@
     transition-duration: 0.3s;
     transition-property: transform;
 }
-
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
+}
+
+.blog-post:hover,
+.blog-post:active{
+    color: lightsalmon;
 }
