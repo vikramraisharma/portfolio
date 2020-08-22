@@ -4,7 +4,7 @@ class Projects extends Component{
     render(){
         return(
             <div className="projects tile">
-                    <div className="tile is-parent is-vertical is-5">
+                    <div className="tile is-parent is-vertical is-6">
                         <article className="tile is-child notification is-warning hvr-grow" >
                             <p>lorem ipsum dolor sit amet</p>
                         </article>
@@ -12,7 +12,7 @@ class Projects extends Component{
                             <p>lorem ipsum dolor sit amet</p>
                         </article>
                     </div>
-                    <div className="tile is-parent is-vertical is-5">
+                    <div className="tile is-parent is-vertical is-6">
                         <article className="tile is-child notification is-warning hvr-grow">
                             <p>lorem ipsum dolor sit amet</p>
                         </article>
