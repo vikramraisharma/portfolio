@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 // import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 import Header from './components/Header'
@@ -16,12 +17,21 @@ class App extends Component {
         return(
             <div className="container">
                 <div id="wrapper">
-                    <Header />
-                    <Hero />
-                    <Projects />
-                    <Blog />
+                    <Header style={{position: 'fixed'}}/>
+                    <ParallaxProvider className="provider-class">
+                        <Parallax y={[-30, 0]} tagOuter="figure" className="parallax-class">
+                            <Hero />   
+                        </Parallax>        
+                        <Parallax y={[-30, 30]} tagOuter="figure" className="parallax-class">
+                            <Projects/>
+                        </Parallax>
+                        <Parallax y={[-30, 30]} tagOuter="figure" className="parallax-class">
+                            <Blog />
+                        </Parallax>
+                    </ParallaxProvider>
+                    <Footer/>
                 </div>
-                <Footer/>
+                
             </div>
         )
     }

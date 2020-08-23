@@ -1,7 +1,9 @@
-*{
+/* *{
     border: 1px solid purple;
+} */
+#root{
+    background-color: lightslategray;
 }
-
 /* Format App div */
 .container{
     display: flex;
@@ -11,8 +13,21 @@
 
 /* Order App contents above Footer */
 #wrapper{
-    flex: 1;
+    flex: 1 0 auto;
+    width: 100%;
 }
+/* #wrapper:after{
+    content: '\00a0';
+    display: block;
+    height: 0;
+    visibility: hidden;
+} */
+
+/* Format Parallax Components */
+.parallax-class{
+    margin: 40vh 0 0;
+}
+
 
 /* begin stylesheet */
 
@@ -60,20 +75,29 @@
     border-radius: 2rem;
     padding:1rem;
     align-items: center;
+    border: solid purple 2px;
 }
 .hero-img{
     height: auto;
+    border: dotted purple 1px;
 }
 
 /* projects */
+.project-plx{
+    background-color: darkgray;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
 .projects{
     min-height: 80vh;
     justify-content: center;
-    padding: 1rem ;
-    border: none;
+    /* padding: 1rem ; */
     width: 80%;
-    /* background-color: lightgoldenrodyellow; */
     margin: 0 auto;
+}
+.project-plx > .title{
+    text-align: center;
 }
 .tile{
     border: none
