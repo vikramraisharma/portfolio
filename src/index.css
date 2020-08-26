@@ -104,13 +104,6 @@
     border-radius: 2.5rem;
     padding: 1rem;
 }
-.projects{
-    min-height: 80vh;
-    justify-content: center;
-    /* padding: 1rem ; */
-    width: 80%;
-    margin: 0 auto;
-}
 .project-plx > .title{
     text-align: center;
     color: var(--cloud);
@@ -122,10 +115,21 @@
     background-color: var(--navy);
     color: var(--cloud);
 }
+.projects{
+    min-height: 70vh;
+    justify-content: center;
+    /* padding: 1rem ; */
+    width: 80%;
+    margin: 0 auto;
+}
+.project-info{
+    background-color: var(--navy);
+    color: var(--neon);
+}
 
 /* blog */
 .blog{
-    height: 45vh;
+    height: 50vh;
     display: flex;
     padding: 2rem;
     background-color: var(--mute);
