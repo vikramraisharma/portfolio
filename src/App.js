@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
-// import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Blog from './components/Blog'
 import Footer from './components/Footer'
-
 
 class App extends Component {
     componentDidMount(){
@@ -39,4 +37,3 @@ class App extends Component {
 }
 
 export default App
-
