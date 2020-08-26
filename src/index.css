@@ -1,14 +1,20 @@
-/* *{
-    border: 1px solid purple;
-} */
+*{
+    --navy: #0d153a;
+    --mute: #384e82;
+    --sky: #3d5af1;
+    --neon: #21d0ee;
+    --cloud: #e2f2f5;
+}
+
 #root{
-    background-color: lightslategray;
+    background-color: var(--navy);
 }
 /* Format App div */
 .container{
     display: flex;
-    min-height: 100vh;
+    height: auto;
     flex-direction: column;
+    min-width: 60vw;
 }
 
 /* Order App contents above Footer */
@@ -34,19 +40,28 @@
 /* header */
 .header{
     min-height: 8vh;
-    /* background-color: lightsalmon; */
     padding: 0.5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: var(--navy);
+}
+.header > a:hover{
+    font-weight: bold;
 }
 .level{
     height: 7.2vh;
-    min-width: 50vw;
-    max-width: 85vw;
-    padding: 2vh;
+    width: auto;
+    padding: 2vh;  
+    margin: auto;
+
+    background-color: var(--neon);
     border: none;
     border-radius: 1vh;
-    margin: auto;
-    background-color: purple;
-    color: white;
+}
+.header > .level > .level-right{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
 }
 
 /* hero */
@@ -72,21 +87,22 @@
     display: flex;
     height: 70%;
     width: 80%;
-    border-radius: 2rem;
+    border-radius: 3rem;
     padding:1rem;
     align-items: center;
-    border: solid purple 2px;
+    border: solid var(--neon) 1rem;
+    background-color: var(--navy);
 }
 .hero-img{
     height: auto;
-    border: dotted purple 1px;
+    border: dotted var(--neon) 1px;
 }
 
 /* projects */
 .project-plx{
-    background-color: darkgray;
-    border: 2px solid white;
-    border-radius: 1rem;
+    background-color: var(--mute);
+    border: 1vh solid var(--sky);
+    border-radius: 2.5rem;
     padding: 1rem;
 }
 .projects{
@@ -98,20 +114,33 @@
 }
 .project-plx > .title{
     text-align: center;
+    color: var(--cloud);
 }
 .tile{
     border: none
 }
+.tile.hvr-grow{
+    background-color: var(--navy);
+    color: var(--cloud);
+}
 
 /* blog */
 .blog{
-    min-height: 60vh;
-    /* background-color: lightpink; */
+    min-height: 45vh;
     display: flex;
+    padding: 2rem;
+    background-color: var(--mute);
+    border: 1vh solid var(--sky);
+    border-radius: 2.5rem;
 }
-.tile.is-10{
+.tile.is-11{
     margin: auto;
     align-self: center;
+    height: 35vh;
+}
+.blog-post{
+    background-color: var(--navy);
+    color: var(--cloud);
 }
 
 /* footer */
@@ -123,6 +152,9 @@
 }
 .footer{
     padding: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: var(--navy);
+    font-size: none;
 }
 .footer > .level > .level-right{
     width: 15%;
@@ -148,5 +180,5 @@
 
 .blog-post:hover,
 .blog-post:active{
-    color: lightsalmon;
+    color: var(--neon);
 }

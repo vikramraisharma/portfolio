@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import madewithbulma from '../images/made-with-bulma--white.png'
+import madewithbulma from '../images/made-with-bulma--black.png'
 
 class Footer extends Component {
     render() {
@@ -9,19 +9,19 @@ class Footer extends Component {
                     <div className="level-left">
                         <div className="level-item">
                             <a href="https://bulma.io">
-                                <img src={madewithbulma} alt="Made with Bulma" width="192" height="36"/>
+                                <img src={madewithbulma} alt="Made with Bulma" width="256" height="48"/>
                             </a>
                         </div>
                     </div>
                     <div className="level-right">
                         <div className="level-item">
-                            <a href="#"> <i class="fab fa-instagram" style={{fontSize: 2 + 'rem', color: 'white'}}/> </a>
+                            <a href="#"> <i class="fab fa-instagram" style={{fontSize: 3 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="#"> <i class="fab fa-github" style={{fontSize: 2 + 'rem', color: 'white'}}/> </a>
+                            <a href="#"> <i class="fab fa-github" style={{fontSize: 3 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="#"> <i class="fab fa-linkedin" style={{fontSize: 2 + 'rem', color: 'white'}}/> </a>
+                            <a href="#"> <i class="fab fa-linkedin" style={{fontSize: 3 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                     </div>
                 </div>
