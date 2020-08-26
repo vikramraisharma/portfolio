@@ -8,11 +8,12 @@
 
 #root{
     background-color: var(--navy);
+    height: 100%;
 }
 /* Format App div */
 .container{
     display: flex;
-    height: auto;
+    height: 100%;
     flex-direction: column;
     min-width: 60vw;
 }
@@ -31,7 +32,8 @@
 
 /* Format Parallax Components */
 .parallax-class{
-    margin: 40vh 0 0;
+    margin-top: 30vh;
+    margin-bottom: 40vh;
 }
 
 
@@ -89,8 +91,11 @@
     border-radius: 3rem;
     padding:1rem;
     align-items: center;
-    border: solid var(--neon) 1rem;
+    border: solid var(--neon) .5rem;
     background-color: var(--navy);
+}
+.bio > h1{
+    color: var(--neon);
 }
 .hero-img{
     height: auto;
@@ -116,34 +121,31 @@
     color: var(--cloud);
 }
 .projects{
-    min-height: 70vh;
+    min-height: 60vh;
     justify-content: center;
     /* padding: 1rem ; */
     width: 80%;
     margin: 0 auto;
 }
-.project-info{
-    background-color: var(--navy);
-    color: var(--neon);
-}
 
 /* blog */
+.blog-plx{
+    margin: 40vh 0;
+}
 .blog{
-    height: 50vh;
-    display: flex;
-    padding: 2rem;
+    height: 65vh;
+    padding: 1.5rem;
     background-color: var(--mute);
     border: 1vh solid var(--sky);
     border-radius: 2.5rem;
 }
-.tile.is-11{
+.blog > .tile {    
     margin: auto;
-    align-self: center;
-    height: 35vh;
 }
-.blog-post{
+.tile.is-11 > article{
+    height: 20vh;
     background-color: var(--navy);
-    color: var(--cloud);
+    color: var(--neon);
 }
 
 /* footer */
@@ -181,7 +183,6 @@
     transform: scale(1.1);
 }
 
-.blog-post:hover,
-.blog-post:active{
-    color: var(--neon);
+.tile.is-11 > article:hover{
+    color: var(--cloud);
 }

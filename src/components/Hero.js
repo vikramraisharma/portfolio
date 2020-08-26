@@ -7,7 +7,7 @@ class Hero extends Component {
 
                         <div className="hero-text column is-half">
                             <div className="bio">
-                                <h1 className="subtitle is-5">Here's a brand statement or title. I plan on talking about myself a little and putting my resume brand statement here.</h1>
+                                <h1 className="subtitle is-5">I am a budding full-stack developer eager to learn about what back and front end technologies I can - experienced with front-end frameworks such as React and other js libraries, and building back-ends in both JavaScript and Ruby</h1>
                             </div>
                         </div>
                         <div className="hero-img column">

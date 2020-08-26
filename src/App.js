@@ -17,7 +17,7 @@ class App extends Component {
                 <div id="wrapper">
                     <Header style={{position: 'fixed'}}/>
                     <ParallaxProvider className="provider-class">
-                        <Parallax y={[-30, 0]} tagOuter="figure" className="parallax-class">
+                        <Parallax y={[-30, 30]} tagOuter="figure" className="parallax-class">
                             <Hero />   
                         </Parallax>        
                         <Parallax y={[-30, 30]} tagOuter="figure" className="parallax-class">
