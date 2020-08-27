@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+// import {  Parallax } from 'react-scroll-parallax';
 
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -14,22 +14,11 @@ class App extends Component {
     render(){
         return(
             <div className="container">
-                <div id="wrapper">
-                    <Header style={{position: 'fixed'}}/>
-                    <ParallaxProvider className="provider-class">
-                        <Parallax y={[-30, 30]} tagOuter="figure" className="parallax-class">
-                            <Hero />   
-                        </Parallax>        
-                        <Parallax y={[-30, 30]} tagOuter="figure" className="parallax-class">
-                            <Projects/>
-                        </Parallax>
-                        <Parallax y={[-30, 30]} tagOuter="figure" className="parallax-class">
-                            <Blog />
-                        </Parallax>
-                    </ParallaxProvider>
-                    <Footer/>
-                </div>
-                
+                    <Header/>
+                    <Hero />   
+                    <Projects/>
+                    <Blog />
+                    <Footer/>            
             </div>
         )
     }

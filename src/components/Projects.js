@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Parallax} from 'react-scroll-parallax';
 
 import Sinatra from '../images/sinatra.png'
 import Stomping from '../images/stomping.png'
@@ -7,8 +8,8 @@ import Tzo from '../images/tzo.png'
 class Projects extends Component{
     render(){
         return(
-            <div className="project-plx">
-                <h1 className="title">Projects</h1>
+            <Parallax y={[-10, 10]} tagOuter="figure" className="project-plx">
+                <h1 className="pj-title">Projects</h1>
                 <div className="projects tile">
                         <div className="tile is-parent is-vertical is-7">
                             <article className="tile is-child notification hvr-grow">
@@ -44,11 +45,11 @@ class Projects extends Component{
                                         <img src={ Tzo } alt="project number 4 on display"/>
                                     </figure>
                                 </a>
-                                <p>lorem ipsum dolor sit amet</p>
+                                <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
                             </article>
                         </div>
                 </div>
-            </div>
+            </Parallax>
         )
     }
 }

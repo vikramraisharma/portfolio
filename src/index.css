@@ -8,7 +8,7 @@
 
 #root{
     background-color: var(--navy);
-    height: 100%;
+    height: auto;
 }
 /* Format App div */
 .container{
@@ -16,24 +16,6 @@
     height: 100%;
     flex-direction: column;
     min-width: 60vw;
-}
-
-/* Order App contents above Footer */
-#wrapper{
-    flex: 1 0 auto;
-    width: 100%;
-}
-/* #wrapper:after{
-    content: '\00a0';
-    display: block;
-    height: 0;
-    visibility: hidden;
-} */
-
-/* Format Parallax Components */
-.parallax-class{
-    margin-top: 30vh;
-    margin-bottom: 40vh;
 }
 
 
@@ -68,6 +50,8 @@
 /* hero */
 .hero-div{
     min-height: 60vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     /* background-color: lightpink; */
     justify-content: space-around;
 }
@@ -88,14 +72,15 @@
     display: flex;
     height: 70%;
     width: 80%;
-    border-radius: 3rem;
+    border-radius: 0.5rem;
     padding:1rem;
     align-items: center;
-    border: solid var(--neon) .5rem;
+    border: solid var(--neon) .3rem;
     background-color: var(--navy);
+    
 }
 .bio > h1{
-    color: var(--neon);
+    color: var(--cloud);
 }
 .hero-img{
     height: auto;
@@ -103,25 +88,25 @@
 }
 
 /* projects */
-.project-plx{
-    background-color: var(--mute);
-    border: 1vh solid var(--sky);
-    border-radius: 2.5rem;
-    padding: 1rem;
-}
-.project-plx > .title{
+.pj-title{
     text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
     color: var(--cloud);
 }
-.tile{
-    border: none
+.tile.is-7 > .tile{
+    border: 0.1rem dashed var(--neon);
+    height: fit-content
 }
 .tile.hvr-grow{
     background-color: var(--navy);
     color: var(--cloud);
 }
 .projects{
-    min-height: 60vh;
+    min-height: 50vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     justify-content: center;
     /* padding: 1rem ; */
     width: 80%;
@@ -129,22 +114,24 @@
 }
 
 /* blog */
-.blog-plx{
-    margin: 40vh 0;
-}
 .blog{
     height: 65vh;
     padding: 1.5rem;
-    background-color: var(--mute);
-    border: 1vh solid var(--sky);
-    border-radius: 2.5rem;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
 }
-.blog > .tile {    
+.blog-title{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--cloud);
+}
+.tile {    
     margin: auto;
 }
 .tile.is-11 > article{
     height: 20vh;
     background-color: var(--navy);
+    border: 0.4rem solid var(--neon);
     color: var(--neon);
 }
 
