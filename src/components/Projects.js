@@ -8,7 +8,7 @@ import Tzo from '../images/tzo.png'
 class Projects extends Component{
     render(){
         return(
-            <Parallax y={[-10, 10]} tagOuter="figure" className="project-plx">
+            <Parallax y={[-15, 15]} tagOuter="figure" className="project-plx">
                 <h1 className="pj-title">Projects</h1>
                 <div className="projects tile">
                         <div className="tile is-parent is-vertical is-7">

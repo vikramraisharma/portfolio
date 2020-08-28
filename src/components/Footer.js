@@ -9,19 +9,19 @@ class Footer extends Component {
                     <div className="level-left">
                         <div className="level-item">
                             <a href="https://bulma.io">
-                                <img src={madewithbulma} alt="Made with Bulma" width="256" height="48"/>
+                                <img src={madewithbulma} alt="Made with Bulma" width="171" height="32"/>
                             </a>
                         </div>
                     </div>
                     <div className="level-right">
                         <div className="level-item">
-                            <a href="https://www.instagram.com/thebusinessbeard/"> <i class="fab fa-instagram" style={{fontSize: 3 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://www.instagram.com/thebusinessbeard/"> <i class="fab fa-instagram" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="https://github.com/vikramraisharma"> <i class="fab fa-github" style={{fontSize: 3 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://github.com/vikramraisharma"> <i class="fab fa-github" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="https://www.linkedin.com/in/vikramraisharma/"> <i class="fab fa-linkedin" style={{fontSize: 3 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://www.linkedin.com/in/vikramraisharma/"> <i class="fab fa-linkedin" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                     </div>
                 </div>

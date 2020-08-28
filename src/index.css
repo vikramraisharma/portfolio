@@ -26,6 +26,7 @@
     min-height: 8vh;
     padding: 0.5rem;
     margin-top: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
     color: var(--navy);
 }
 .header > a:hover{
@@ -77,23 +78,30 @@
     align-items: center;
     border: solid var(--neon) .3rem;
     background-color: var(--navy);
-    
+    font-family: 'Noto Sans JP', sans-serif;    
 }
 .bio > h1{
     color: var(--cloud);
 }
 .hero-img{
-    height: auto;
-    border: dotted var(--neon) 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-img > .image{
+    align-self: center;
 }
 
 /* projects */
+.project-plx{
+    margin-top: 10rem;
+}
 .pj-title{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
     color: var(--cloud);
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .tile.is-7 > .tile{
     border: 0.1rem dashed var(--neon);
@@ -105,10 +113,9 @@
 }
 .projects{
     min-height: 50vh;
-    margin-top: 20vh;
     margin-bottom: 20vh;
     justify-content: center;
-    /* padding: 1rem ; */
+    padding: 1rem ;
     width: 80%;
     margin: 0 auto;
 }
@@ -117,13 +124,14 @@
 .blog{
     height: 65vh;
     padding: 1.5rem;
-    margin-top: 15vh;
+    margin-top: 12rem;
     margin-bottom: 10vh;
 }
 .blog-title{
     text-align: center;
     font-size: 3rem;
     color: var(--cloud);
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .tile {    
     margin: auto;
@@ -133,7 +141,9 @@
     background-color: var(--navy);
     border: 0.4rem solid var(--neon);
     color: var(--neon);
+    font-family: 'Noto Sans JP', sans-serif;
 }
+
 
 /* footer */
 .bottom{
@@ -172,4 +182,5 @@
 
 .tile.is-11 > article:hover{
     color: var(--cloud);
+    text-decoration: none;;
 }
