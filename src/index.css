@@ -45,7 +45,7 @@
 .header > .level > .level-right{
     display: flex;
     justify-content: space-between;
-    width: 15%;
+    width: 25%;
 }
 
 /* hero */
@@ -76,9 +76,10 @@
     border-radius: 0.5rem;
     padding:1rem;
     align-items: center;
-    border: solid var(--neon) .3rem;
+    /* border: solid var(--neon) .3rem; */
     background-color: var(--navy);
     font-family: 'Noto Sans JP', sans-serif;    
+    text-align: center;
 }
 .bio > h1{
     color: var(--cloud);

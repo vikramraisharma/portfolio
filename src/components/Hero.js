@@ -10,7 +10,7 @@ class Hero extends Component {
                     <div  className="hero-div columns">
                         <div className="hero-text column is-half">
                             <div className="bio">
-                                <h1 className="subtitle is-4">I am a budding full-stack developer eager to learn both back and front end technologies - experienced with front-end frameworks such as React, and building back-ends in both JavaScript and Ruby</h1>
+                                <h1 className="subtitle is-4">I am a budding full-stack developer eager to learn both back and front end technologies - experienced with front-end frameworks such as React, and building back-ends in both JavaScript and Ruby <br/><br/>Active TS/SCI Poly Clearance</h1>
                             </div>
                         </div>
                         <div className="hero-img column">
