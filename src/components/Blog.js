@@ -8,9 +8,9 @@ class Blog extends Component {
                     <h1 className="blog-title">Blog</h1>
                     <div className="tile is-parent is-vertical is-11">  
                         <article className="tile is-child notification blog-post">
-                            <a href="https://github.com/vikramraisharma/moon-river-api" style={{textDecoration: 'none'}}>
-                                <h1 class="title">New Blog Post</h1>
-                                <p class="subtitle">Lorem ipsum dolor sit amet lorem ipsem dolor sit amet lorem ipsup etdcdlfkajfieaj;ldskfje;ladsf fkdafi fielaidf e</p>
+                            <a href="https://medium.com/@vikram.sharma1024/what-coding-boot-camps-miss-875cc0dba08c" style={{textDecoration: 'none'}}>
+                                <h1 class="title">What Coding Boot-camps Miss</h1>
+                                <p class="subtitle">I noticed one major flaw with the boot-camp teaching philosophy: I was taught how to code, but not how to think...</p>
                             </a>
                         </article>
                         <article className="tile is-child notification blog-post">

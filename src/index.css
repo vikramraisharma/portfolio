@@ -90,6 +90,9 @@
 .hero-img > .image{
     align-self: center;
 }
+.hero-img > figure > img {
+    border-radius: 0.5rem;
+}
 
 /* projects */
 .project-plx{

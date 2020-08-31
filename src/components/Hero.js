@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Parallax} from 'react-scroll-parallax';
 
-import fourhundo from '../images/placeholder-400x400.png'
+import portrait from '../images/cropped.jpg'
 
 class Hero extends Component {
     render() {
@@ -15,7 +15,7 @@ class Hero extends Component {
                         </div>
                         <div className="hero-img column">
                             <figure className="image">
-                                <img src={fourhundo} alt="headshot of me" style={{height: '400px', width: '400px'}} />
+                                <img src={portrait} alt="headshot of me" style={{height: '400px', width: '400px'}} />
                             </figure>
                         </div>
                     </div>      
