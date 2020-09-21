@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import {Parallax} from 'react-scroll-parallax'
 
 import resume from '../images/resume.pdf'
 
 class Header extends Component {
     render() {
         return(
-            <div className="header">
+            <Parallax className="header" disabled={true}>
                 <div className="level">
                     <div className="level-left">
                         <p style={{fontSize: 2 + 'rem'}}>vikram rai sharma</p>
@@ -23,7 +24,7 @@ class Header extends Component {
                         </a>
                     </div>
                 </div>
-            </div>
+            </Parallax>
         )
     }
 }

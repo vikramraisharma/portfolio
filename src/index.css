@@ -47,6 +47,24 @@
     justify-content: space-between;
     width: 25%;
 }
+@media only screen and (max-width: 800px){
+    .level{
+        font-size: 1.2rem;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        padding: 1vh
+    }
+    .level-left{
+        width: 40%;
+    }
+    .level-item{
+        width: 40%;
+    }
+    .level > .level-item > a > p{
+        font-size: 1.2rem;
+    }
+}
 
 /* hero */
 .hero-div{
@@ -126,10 +144,10 @@
 
 /* blog */
 .blog{
-    height: 65vh;
+    height: 80vh;
     padding: 1.5rem;
     margin-top: 12rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .blog-title{
     text-align: center;
@@ -147,15 +165,25 @@
     color: var(--neon);
     font-family: 'Noto Sans JP', sans-serif;
 }
+@media only screen and (max-width: 800px) {
+    .blog{
+        padding: 0;
+        height: auto;
+    }
+    .tile.is-11 > article{
+        border: 0.1rem solid var(--neon);
+        height: auto;
+    }
+    .tile.is-11 > article > a > .title {
+        font-size: 1.5rem;
+    }
+    .tile.is-11 > article > a > .subtitle {
+        font-size: 1rem;
+    }
+  }
 
 
 /* footer */
-.bottom{
-    height: 8vh;
-    padding: 1rem;
-    width: 100%;
-    /* background-color: lightgoldenrodyellow; */
-}
 .footer{
     padding: 0.5rem;
     margin-bottom: 2rem;
@@ -165,6 +193,47 @@
 .footer > .level > .level-right{
     width: 15%;
     justify-content: space-around;
+
+}
+@media only screen and (max-width: 800px){
+    .level-left{
+        width: 50%;
+        border: 1px solid white;
+    }
+    .level > .level-right{
+        width: 50%;
+        border: 1px solid white;
+        height: 100%;
+
+    }
+    .level-right > .level-item{
+        border: 1px solid white;
+        width: 14%;
+    }
+}
+.header-mobile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid white;
+}
+.mobile-title{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--neon);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1vh;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+.mobile-link-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mh-link{
+    font-size: 1.4rem;
 }
 
 /* animations */

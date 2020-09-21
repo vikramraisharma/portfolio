@@ -17,13 +17,13 @@ class Footer extends Component {
                     </div>
                     <div className="level-right">
                         <div className="level-item">
-                            <a href="https://www.instagram.com/thebusinessbeard/"> <i className="fab fa-instagram" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://www.instagram.com/thebusinessbeard/"> <i className="fab fa-instagram" style={{fontSize: 1.25 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="https://github.com/vikramraisharma"> <i className="fab fa-github" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://github.com/vikramraisharma"> <i className="fab fa-github" style={{fontSize: 1.25 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="https://www.linkedin.com/in/vikramraisharma/"> <i className="fab fa-linkedin" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://www.linkedin.com/in/vikramraisharma/"> <i className="fab fa-linkedin" style={{fontSize: 1.25 + 'rem', color: 'var(--navy)'}}/> </a>
                         </div>
                     </div>
                 </div>
@@ -33,3 +33,9 @@ class Footer extends Component {
 }
 
 export default Footer
+
+{/* <div className="level-item has-text-centered">
+<a href="mailto:vikram.sharma1024@gmail.com" style={{color: 'var(--navy)', fontSize: 1.25 + 'rem'}}>
+    <p>email me</p>
+</a>    
+</div>        */}

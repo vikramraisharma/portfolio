@@ -9,7 +9,7 @@ import Dsiac from '../images/dsiac.png'
 class Projects extends Component{
     render(){
         return(
-            <Parallax y={[-15, 15]} tagOuter="figure" className="project-plx">
+            <Parallax y={[-15, 15]} tagOuter="figure" className="project-plx" disabled={this.props.isMobile}>
                 <h1 className="pj-title">Projects</h1>
                 <div className="projects tile">
                         <div className="tile is-parent is-vertical is-7">
