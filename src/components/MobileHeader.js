@@ -13,11 +13,11 @@ class MobileHeader extends Component {
                             vikram rai sharma
                         </h1>
                     </div>
-                    <div classname="mobile-links">
+                    <div className="mobile-links">
                         <ul className="mobile-link-list">
-                            <li><a href="#" className="mh-link">linkedin</a></li>
-                            <li><a href="#" className="mh-link">resume</a></li>
-                            <li><a href="#" className="mh-link">email me</a></li>
+                            <li><a href="https://www.linkedin.com/in/vikramraisharma/" className="mh-link">linkedin</a></li>
+                            <li><a href={resume} className="mh-link">resume</a></li>
+                            <li><a href="mailto:vikram.sharma1024@gmail.com?subject=email%20From Your Portfolio..." className="mh-link">email me</a></li>
                         </ul>
                     </div>
                 </div>

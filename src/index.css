@@ -50,7 +50,6 @@
 @media only screen and (max-width: 800px){
     .level{
         font-size: 1.2rem;
-        border: 1px solid white;
         display: flex;
         flex-direction: row;
         padding: 1vh
@@ -112,6 +111,22 @@
 .hero-img > figure > img {
     border-radius: 0.5rem;
 }
+    .hero-div-mobile{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .hero-img-mobile{
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+        .hero-text-mobile{
+        padding: 0.7rem;
+        display: flex;
+        justify-content: space-around;
+    }
 
 /* projects */
 .project-plx{
@@ -141,6 +156,11 @@
     width: 80%;
     margin: 0 auto;
 }
+@media only screen and (max-width: 800px){
+    .project-plx{
+        margin-top: auto;
+    }
+}
 
 /* blog */
 .blog{
@@ -169,6 +189,7 @@
     .blog{
         padding: 0;
         height: auto;
+        margin-top: 2rem;
     }
     .tile.is-11 > article{
         border: 0.1rem solid var(--neon);
@@ -195,27 +216,29 @@
     justify-content: space-around;
 
 }
-@media only screen and (max-width: 800px){
-    .level-left{
-        width: 50%;
-        border: 1px solid white;
-    }
-    .level > .level-right{
-        width: 50%;
-        border: 1px solid white;
-        height: 100%;
 
-    }
-    .level-right > .level-item{
-        border: 1px solid white;
-        width: 14%;
-    }
+.footer-mobile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.75rem;
 }
+
+.mobile-icon-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.bulma-img-mobile{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+}
+
 .header-mobile{
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid white;
 }
 .mobile-title{
     font-family: 'Noto Sans JP', sans-serif;
@@ -225,7 +248,6 @@
     text-align: center;
     padding: 1vh;
     margin: 0 auto;
-    border: 1px solid white;
 }
 .mobile-link-list{
     display: flex;
