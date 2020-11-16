@@ -10,18 +10,17 @@ import Blog from './components/Blog'
 import Footer from './components/Footer'
 import MobileFooter from './components/MobileFooter'
 
-var mobile = false;
-
-if(window.innerWidth < 800){
-    mobile = true;
-}
+// var mobile = false;
+// if(window.innerWidth < 800){
+//     mobile = true;
+// }
 
 class App extends Component {
     
     constructor(props){
         super(props)
         this.state={
-            isMobile: mobile
+            isMobile: window.innerWidth < 800 || false
         }
     }
     componentDidMount(){

@@ -17,13 +17,13 @@ class Footer extends Component {
                     </div>
                     <div className="level-right">
                         <div className="level-item">
-                            <a href="https://www.instagram.com/vikramraisharma/"> <i className="fab fa-instagram" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://www.instagram.com/vikramraisharma/"> <i className="fab fa-instagram" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}} target="_blank" rel="noopener noreferrer"/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="https://github.com/vikramraisharma"> <i className="fab fa-github" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://github.com/vikramraisharma"> <i className="fab fa-github" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}} target="_blank" rel="noopener noreferrer"/> </a>
                         </div>
                         <div className="level-item">
-                            <a href="https://www.linkedin.com/in/vikramraisharma/"> <i className="fab fa-linkedin" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}}/> </a>
+                            <a href="https://www.linkedin.com/in/vikramraisharma/"> <i className="fab fa-linkedin" style={{fontSize: 2.5 + 'rem', color: 'var(--navy)'}} target="_blank" rel="noopener noreferrer"/> </a>
                         </div>
                     </div>
                 </div>

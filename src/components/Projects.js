@@ -6,7 +6,13 @@ import Stomping from '../images/stomping.png'
 import Tzo from '../images/tzo.png'
 import Dsiac from '../images/dsiac.png'
 
+
 class Projects extends Component{
+
+    componentDidMount(){
+        console.log(this.props.isMobile);
+    }
+
     render(){
         return(
             <Parallax y={[-15, 15]} tagOuter="figure" className="project-plx" disabled={this.props.isMobile}>
