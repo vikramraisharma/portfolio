@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Parallax} from 'react-scroll-parallax';
 
 import Plant from '../images/plantarion.png'
-import Stomping from '../images/stomping.png'
+import Banking from '../images/banking.png'
 import Tzo from '../images/tzo.png'
 import Dsiac from '../images/dsiac.png'
 
@@ -46,12 +46,12 @@ class Projects extends Component{
                                 <p>Defense Systems IAC -- Govt Contractor dedicated to military research efforts and report writing</p>
                             </article>
                             <article className="tile is-child notification hvr-grow">
-                                <a href="https://enigmatic-mountain-68507.herokuapp.com/">
+                                <a href="https://github.com/vikramraisharma/banking-app-client">
                                     <figure className="image is-4by3">
-                                        <img src={ Stomping } alt="boot retail site built in node and react"/>
+                                        <img src={ Banking } alt="banking app created with React, Node, SQL"/>
                                     </figure>
                                 </a>
-                                <p>Stomping Grounds -- Mock e-commerce app to demonstrate proficiency with MERN stack</p>
+                                <p>Banking App -- Mock banking web app I used to learn more about Node, React/Hooks, and JWT</p>
                             </article>
                         </div>
                 </div>
