@@ -15,7 +15,7 @@ class MobileHero extends Component {
                         </div>
                         <div className="hero-text-mobile">
                             <div className="bio">
-                                <h1 className="subtitle is-4">I am a budding full-stack developer eager to learn both back and front end technologies - experienced with front-end frameworks such as React, and building back-ends in both JavaScript and Ruby</h1>
+                                <h1 className="subtitle is-4">Hi! I'm a junior full-stack developer eager skilled in JavaScript (React/Node/jQuery), Python (Django/scripting), Ruby(Rails/Sinatra), and HTML/CSS.</h1>
                             </div>
                         </div>
 
